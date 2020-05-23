@@ -12,3 +12,6 @@ const cover = document.getElementById('cover');
 
 // Song titles
 const song = ['hey', 'summer', 'ukulele'];
+
+// Keep track of songs
+let songIndex = 2;
