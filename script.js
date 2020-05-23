@@ -15,3 +15,6 @@ const song = ['hey', 'summer', 'ukulele'];
 
 // Keep track of songs
 let songIndex = 2;
+
+// Initially load song details into DOM
+loadSong(songs[songIndex]);
