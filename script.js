@@ -14,7 +14,7 @@ const cover = document.getElementById('cover');
 const songs = ['hey', 'summer', 'ukulele'];
 
 // Keep track of songs
-let songIndex = 2;
+let songIndex = 0;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
@@ -45,6 +45,9 @@ function pauseSong() {
 }
 
 // Event Listeners
+// ----------------------
+
+// play song
 playBtn.addEventListener('click', () => {
   const isPlaying = musicContainer.classList.contains('play');
 
@@ -54,3 +57,7 @@ playBtn.addEventListener('click', () => {
     playSong();
   }
 });
+
+// change song
+prevBtn.addEventListener('click', prevSong);
+nextBtn.addEventListener('click', nextSong);
