@@ -105,3 +105,6 @@ audio.addEventListener('timeupdate', updateProgress);
 
 // Click on the progress bar
 progressContainer.addEventListener('click', setProgress);
+
+// Song next
+audio.addEventListener('ended', nextSong);
