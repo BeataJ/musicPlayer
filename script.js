@@ -94,3 +94,6 @@ nextBtn.addEventListener('click', nextSong);
 
 // time/ong update
 audio.addEventListener('timeupdate', updateProgress);
+
+// Click on the progress bar
+progressContainer.addEventListener('click', setProgress);
